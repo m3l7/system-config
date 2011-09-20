@@ -1,0 +1,14 @@
+screen -t bash1
+screen -t bash2
+screen -t bash0
+altscreen on
+term screen-256color
+bind ',' prev
+bind '.' next
+
+#hardstatus string "looool"
+
+
+hardstatus alwayslastline
+#hardstatus string "%{.kW}%-w%{.W}%n %t%{-}%{=b kw}%?%+w%? %=%c %d/%m/%Y"
+hardstatus string '%{= kG}[ %{G}%H %{g}][%=%{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
