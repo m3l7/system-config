@@ -5,6 +5,7 @@ altscreen on
 term screen-256color
 bind ',' prev
 bind '.' next
+vbell off
 
 #hardstatus string "looool"
 
