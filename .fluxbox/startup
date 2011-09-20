@@ -1,0 +1,5 @@
+setxkbmap it &
+VBoxClient-all &
+
+
+exec fluxbox
