@@ -24,6 +24,9 @@ map <C-t><left> :tabp<cr>
 map <C-t><right> :tabn<cr>
 
 
+map <C-s> :w<cr>
+map <C-k> dd
+
 syntax on
 filetype on
 filetype plugin indent on
