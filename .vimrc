@@ -2,6 +2,8 @@ filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+set number
+
 set foldmethod=indent
 set foldlevel=99
 
@@ -13,6 +15,8 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
+map <leader>, :bprevious!<cr>
+map <leader>. :bNext!<cr>
 
 map <C-t><up> :tabr<cr>
 map <C-t><down> :tabl<cr>
