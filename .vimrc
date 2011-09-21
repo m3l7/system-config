@@ -8,6 +8,11 @@ set foldlevel=99
 map <leader>td <Plug>TaskList
 map <leader>g :GundoToggle<CR>
 
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
 syntax on
 filetype on
 filetype plugin indent on
